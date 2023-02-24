@@ -1,0 +1,130 @@
+body {
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: white;
+  font-family: "Lexend Mega", sans-serif;
+}
+
+/* header */
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10%;
+  width: 100%;
+}
+
+.nav p {
+  flex: 1;
+}
+/* main */
+.main {
+}
+
+/* mission */
+.mission {
+  background-image: url("../images/training.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 35px auto;
+  margin-top: 50px;
+}
+
+.mission-text {
+  background-color: white;
+  width: 100%;
+}
+
+/* services */
+.services {
+  min-height: 500px;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.services-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.services-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services-image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.services-image span {
+  padding: 5px;
+  min-width: 240px;
+  font-weight: bold;
+  text-align: center;
+}
+/* team */
+
+.team-container {
+  margin-top: 5rem;
+}
+.team {
+  background-image: url("../images/training.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teammate {
+  flex-basis: 280px;
+  padding: 10px;
+  margin-bottom: 30px;
+  color: white;
+  background: rgba(26, 25, 25, 0.4);
+}
+
+.team img {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* contact */
+.contact,
+footer {
+  padding-top: 10px;
+}
